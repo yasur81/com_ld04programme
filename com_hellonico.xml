@@ -1,0 +1,24 @@
+<extension type="component" method="upgrade">
+  <name>Lancaster_Ramblers_Walks_Programme</name>
+  <creationDate>15-05-2026</creationDate>
+  <author>David</author>
+  <version>1.0.0</version>
+  <description>Walks programme component</description>
+  <element>com_LD04Programme</element>
+  <license>GNU General Public License version 2 or later</license>
+  <namespace path="src">LD04\Component\LD04Programme</namespace>
+  <administration>
+    <menu>Walks_Programme</menu>
+    <files folder="admin">
+      <folder>services</folder>
+      <folder>src</folder>
+      <folder>tmpl</folder>
+      <folder>language</folder>
+    </files>
+  </administration>
+  <files folder="site">
+    <folder>src</folder>
+    <folder>tmpl</folder>
+    <folder>language</folder>
+  </files>
+</extension>
