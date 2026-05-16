@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata>
-  <layout title="COM_LD04PROGRAMME_MENU_HELLO_TITLE">
-    <message>COM_LD04PROGRAMME_MENU_HELLO_MSG</message>
+  <layout title="COM_PROGRAMME_MENU_HELLO_TITLE">
+    <message>COM_PROGRAMME_MENU_HELLO_MSG</message>
   </layout>
   <fields name="params">
     <fieldset name="basic">
       <field name="greeting"
              type="text"
-             label="COM_LD04PROGRAMME_FIELD_GREETING_LABEL"
-             description="COM_LD04PROGRAMME_FIELD_GREETING_DESC"
+             label="COM_PROGRAMME_FIELD_GREETING_LABEL"
+             description="COM_PROGRAMME_FIELD_GREETING_DESC"
              default="Hello from frontend!" />
     </fieldset>
   </fields>

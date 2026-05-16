@@ -4,9 +4,9 @@
   <author>David</author>
   <version>1.0.0</version>
   <description>Walks programme component</description>
-  <element>com_LD04Programme</element>
+  <element>com_programme</element>
   <license>GNU General Public License version 2 or later</license>
-  <namespace path="src">LD04\Component\LD04Programme</namespace>
+  <namespace path="src">Ld04\Component\Programme</namespace>
   <administration>
     <menu>Walks_Programme</menu>
     <files folder="admin">

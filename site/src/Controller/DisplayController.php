@@ -1,5 +1,5 @@
 <?php
-namespace LD04\Component\LD04Programme\Site\Controller;
+namespace Ld04\Component\Programme\Site\Controller;
 
 \defined('_JEXEC') or die;
 

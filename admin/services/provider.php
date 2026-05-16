@@ -17,13 +17,13 @@ use Joomla\CMS\MVC\Factory\MVCFactoryInterface;
 use Joomla\CMS\Extension\Service\Provider\ComponentDispatcherFactory;
 use Joomla\CMS\Extension\Service\Provider\MVCFactory;
 
-use LD04\Component\Programme\Administrator\Extension\LD04ProgrammeComponent;
+use Ld04\Component\Programme\Administrator\Extension\ProgrammeComponent;
 
 return new class implements ServiceProviderInterface
 {
     public function register(Container $container): void
     {
-        $namespace = '\\LD04\\Component\\LD04Programme';
+        $namespace = '\\Ld04\\Component\\Programme';
 
         $container->registerServiceProvider(new ComponentDispatcherFactory($namespace));
         $container->registerServiceProvider(new MVCFactory($namespace));
@@ -31,7 +31,7 @@ return new class implements ServiceProviderInterface
         $container->set(
             ComponentInterface::class,
             function (Container $container) {
-                $component = new LD04ProgrammeComponent(
+                $component = new ProgrammeComponent(
                     $container->get(ComponentDispatcherFactoryInterface::class)
                 );
                 $component->setMVCFactory($container->get(MVCFactoryInterface::class));

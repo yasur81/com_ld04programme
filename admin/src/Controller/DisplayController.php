@@ -6,7 +6,7 @@
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-namespace LD04\Component\LD04Programme\Administrator\Controller;
+namespace Ld04\Component\Programme\Administrator\Controller;
 
 defined('_JEXEC') or die;
 

@@ -9,6 +9,6 @@ defined('_JEXEC') or die;
 
 ?>
 <div class="container">
-    <h1>LD04Programme (Admin)</h1>
+    <h1>Programme (Admin)</h1>
     <p><?php echo $this->greeting; ?></p>
 </div>
